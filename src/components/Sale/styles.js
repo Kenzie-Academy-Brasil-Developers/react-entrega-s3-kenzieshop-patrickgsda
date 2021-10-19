@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: "flex-start";
   flex-wrap: wrap;
   max-width: 1200px;
+  margin-top: 35px;
   @media (max-width: 599px) {
     justify-content: center;
     align-items: center;
@@ -16,5 +17,4 @@ export const Container = styled.div`
 export const ContainerCenter = styled.div`
   display: flex;
   justify-content: center;
-  border-top: 2px solid blueviolet;
 `;

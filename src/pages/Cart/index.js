@@ -1,12 +1,17 @@
 import Sales from "../../components/Sale";
 import Header from "../../components/Header";
+import Total from "../../components/Total";
+import { Container } from "./styles";
 
 function Cart() {
   return (
-    <div>
+    <>
       <Header />
-      <Sales />
-    </div>
+      <Container>
+        <Sales />
+        <Total />
+      </Container>
+    </>
   );
 }
 

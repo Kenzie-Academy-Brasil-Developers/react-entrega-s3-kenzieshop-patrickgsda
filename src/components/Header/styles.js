@@ -29,4 +29,23 @@ export const Container = styled.div`
   p {
     margin: 0;
   }
+
+  span {
+    cursor: pointer;
+    border-radius: 100%;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 8px;
+    padding: 0 3px;
+    font-family: "Merienda", cursive;
+  }
+`;
+
+export const Box = styled.div`
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid blueviolet;
 `;

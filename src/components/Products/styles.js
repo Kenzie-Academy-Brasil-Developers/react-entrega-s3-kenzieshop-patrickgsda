@@ -16,5 +16,4 @@ export const Container = styled.div`
 export const ContainerCenter = styled.div`
   display: flex;
   justify-content: center;
-  border-top: 2px solid blueviolet;
 `;
